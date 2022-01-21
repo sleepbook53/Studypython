@@ -13,7 +13,7 @@ def getAllDataFromDivtbl(conn) :
     for row in cur.execute(query) :
         print(row)
 
-# # def setDataIntoDvitbl(conn, tup):
+# def setDataIntoDvitbl(conn, tup):
 #     cur =conn.cursor()
 #     query = '''INSERT INTO divtbl (division, names)
 #                 VALUES (:1, :2)'''
